@@ -11,7 +11,9 @@ console.log("Basu")
 
 let name = "hitesh"
 let age = 19 
-let isLoggedIn =false 
+let isLoggedIn =false
+let state; 
+  
 
 // datatypes :
 //  number => 2 to power 53 
@@ -19,8 +21,14 @@ let isLoggedIn =false
 // string => ""
 // boolean => true/false
 // null=> standalone value 
-// undefined =>
+// undefined =>    // jaise state upr h jo hamne defined ni kiya h hua  h 
+//  symbol  => uniqueness 
 
-// ye kuch ni ha 
-// hihih
+// object 
+
+// type of krne ke 2 method hote h ok
+ console.log(typeof "Basu");
+ console.log(typeof age);
+ console.log(typeof null); // lekin null ek object h samjaaa
+console.log(typeof undefined);
 
