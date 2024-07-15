@@ -20,3 +20,16 @@ console.log(str3);
 
 console.log("1" + 2);
 console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+console.log( (3 + 4) * 5 % 3);
+
+// agr aap ECMA script pe jayege  value abstract opertauions mei type conversion mei to primitive pe check kr saktah ok 
+
+console.log(true); // iska output true aayega 
+console.log(+true);  // iska output aayega 1 
+console.log(+"")  // iska output aayega 0 aayega 
+
+
+
