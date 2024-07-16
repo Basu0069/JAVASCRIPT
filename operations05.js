@@ -42,7 +42,9 @@ console.log(gameCounter);
 
 // Study Prefix and Postfix on js mdn 
 //  khud kro ye okie
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+https://tc39.es/ecma262/multipage/abstract-operations.html
 
 
 
