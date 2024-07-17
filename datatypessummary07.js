@@ -45,5 +45,51 @@ console.log(typeof outsideTemp);
 // aise aap kisi ka bhi check kr sakte ho okie 
 // null ka datatype object aata h vese 
 
-https://262.ecma-international.org/5.1/#sec-11.4.3
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+
+// ===================================
+
+// Two types of memory 
+
+// Stack(Primitive) ismei copy milta h 
+// Heap (Non-Primitive)   ismei reference miltah 
+
+
+// Stack mtlb ek ke upr ek box
+
+// heap mei ek bda box sara 
+
+let myYoutubename = "basuslathiadotcom"
+
+let anothername=myYoutubename
+anothername="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+//  yaha pr copy gya hua h smja upr dekh sakta h tu khud hi 
+
+
+// niche example di hui h ki heap (Non-Primitive) mie seedha main value uthayi hoti h 
+
+
+let userOne = {
+    email: "user@google.com",
+    upo: "user@ybl"
+}
+
+let userTwo= userOne 
+
+userTwo.email = "hitesh@google.com"
+
+ 
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
    
