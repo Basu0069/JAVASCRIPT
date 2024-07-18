@@ -29,3 +29,17 @@ console.log(hundreds.toLocaleString('en-IN'));
 // console.log(Math.floor(4.9));
 // console.log(Math.min(4,5,6,8));
 // console.log(Math.max(4,5,6,8));
+
+console.log(Math.random());
+console.log((Math.random()*10) + 1);
+// isse random no. aata h 0 se 1 ke beech mei okie 
+console.log(Math.floor(Math.random()*10) + 1);
+
+const min = 10
+const max =20 
+
+console.log(Math.floor(Math.random() * (max-min + 1)) + min);
+
+//  revise kr lena ye vese ye 
+
+
