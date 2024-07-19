@@ -39,4 +39,11 @@ console.log(newDate);
 console.log(newDate.getMonth() +1);
 console.log(newDate.getDay());
 
+// `${newDate.getDay()} and the time`
+
+// localeString ko aap aur customise kr sakte ho jaise dekh neeche 
+
+newDate.toLocaleDateString('default', {
+    weekday: "long"
+})
 
