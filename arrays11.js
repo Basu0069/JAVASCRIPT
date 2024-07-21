@@ -16,13 +16,16 @@ console.log(myArr[1]);
 // myArr.push(6)
 // myArr.pop()// last element remove ho jayega isse 
 
-myArr.unshift(9) // isse starting mie ke element add hoa jayega 
-myArr.shift() // isse vo remove ho jayega 
+// myArr.unshift(9) // isse starting mie ke element add hoa jayega 
+// myArr.shift() // isse vo remove ho jayega 
 
-console.log(myArr.includes(9));
-console.log(myArr.indexOf(3));
+// console.log(myArr.includes(9));
+// console.log(myArr.indexOf(3));
+
+const newArr = myArr.join()
+// convert arraty into string 
 
 console.log(myArr);
-
-
+console.log(newArr);
+console.log(typeof newArr);
 
