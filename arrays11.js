@@ -33,4 +33,17 @@ const newArr = myArr.join()
 
 // slice, splice method   
 
-cons
+console.log("A ", myArr);
+
+const myn1= myArr.slice(1, 3)
+
+console.log(myn1);
+console.log("B ", myArr);
+
+const myn2= myArr.splice(1, 3)
+console.log("C ", myArr)
+//  slice ke andar jo portion tha splice ka vo ud gya sara 
+console.log(myn2);
+
+
+ 
