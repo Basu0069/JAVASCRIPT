@@ -5,8 +5,7 @@ const myArr= [ 0, 1 , 2, 3 , 4 ,5]
 const myHeors = ["shaktiman","naagraj"]
 
 const myArr2 = new Array(1,2,3,4)
-console.log(myArr[1]);
-
+// console.log(myArr[1]);
 
 
 
@@ -25,7 +24,13 @@ console.log(myArr[1]);
 const newArr = myArr.join()
 // convert arraty into string 
 
-console.log(myArr);
-console.log(newArr);
-console.log(typeof newArr);
+// console.log(myArr);
+// console.log(newArr);
+// console.log(typeof newArr);
 
+
+
+
+// slice, splice method   
+
+cons
