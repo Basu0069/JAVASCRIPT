@@ -25,13 +25,33 @@ const JsUser = {
     lastLoginDays: ["Monday","Saturday"]
 }
 
-console.log(JsUser.email) // aise bi ho jata h pr aise ham define ni krte okie 
-console.log(JsUser["email"])
-console.log(JsUser["full name"])
-console.log(JsUser[mySym])
+// console.log(JsUser.email) // aise bi ho jata h pr aise ham define ni krte okie 
+// console.log(JsUser["email"])
+// console.log(JsUser["full name"])
+// console.log(JsUser[mySym])
+//  ye aise hi use hota h square brackert mei kyunkiye symbol h na isliye 
 
-// hihih
 
+JsUser.email= "hitesh@chatgpt.com" // u can change this easily email 
+// Object.freeze(JsUser)// isse freeze ho jata h object kuch change ni ho payega 
+
+JsUser.email = "hitesh@microsoft.com" // ye change ni hoga 
+// console.log(JsUser);
+
+
+// Functions bi dalke dekhte h 
+ JsUser.greeting = function(){
+    console.log("Hello JS user");
+ }
+ 
+ JsUser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);// jab bhi koi object define krna toh use this to access
+ }
+
+ console.log(JsUser.greeting());
+ console.log(JsUser.greetingTwo());
+//  kokoko
+// 4:3 ke aass paas 
 
 
 
