@@ -50,8 +50,7 @@ JsUser.email = "hitesh@microsoft.com" // ye change ni hoga
 
  console.log(JsUser.greeting());
  console.log(JsUser.greetingTwo());
-//  kokoko
-// 4:3 ke aass paas 
+ 
 
 
 
