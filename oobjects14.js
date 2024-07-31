@@ -33,9 +33,17 @@ const obj2 = {3: "c", 4: "d"}
 const obj2 = {3: "e", 4: "f"}
 
 // const obj3 = { obj1,obj2}
-const obj3 = Object.assign({}, obj1,obj2,obj4)//isse bi combine ho jata h smja // this one prefered most 
-console.log(obj3);
+// const obj3 = Object.assign({}, obj1,obj2,obj4)//isse bi combine ho jata h smja //
 
-// hihi
+const obj3= {...obj1,...obj2} // this one preferred most okie 
+// console.log(obj3); //check kr lo khud 
+
+
+
+
+// database se jab values aayegyi toh 
+//  neeche iske andar array of objectss 
+
+
 
 
