@@ -60,17 +60,65 @@ const users= [
 ]
 
 users[1].email // iska mtlb h ki aap users ka first part access kr rhe h aur uske andsr email nikal rhe h 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 // Aap koi bi object ki value ko aise access kr sakte ho neeche dekh 
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+// Destructing of objects 
+
+const course = {
+    coursenam: "js in hindi",
+     price: "999",
+     courseInstructor: "hitesh"
+}
+
+// course.courseINstructor       aise bi thik h vese sirf print hi toh kiya h pr neeche likha h sei print ka treeka kyunki tu ab sara baar baar thodi na sara likhega 
+
+const {courseInstructor: instructor} = course // kaha se value stat krni h vo likha h....aur andar likhni h ki konsi value extract krni h ... hamen course instructor li jagah instructor kr diya  h naam ab 
+
+// console.log(courseInstructor); // ab value print ho jayegi courseinstructor 
+console.log(instructor);
+
 
  
+// ab neeche react ki baat btayi h maine dekh 
+// const navbar= ({company}) => { // ye jo company likhi h na ye short form de di h ye react ka part h vese
+
+// }
+
+// navbar(company = "hitesh")
+
+
+// APIs   ye Json mei likhe jaaate h 
+// object hi hote h ye vese 
+
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free",
+// }// ye proper syntax h ismei koi galat ni h 
+
+// kuch API array ki form mei bi hote h jes 
+[
+    {},
+    {},
+    {}
+]
+
+// Json formatter tool online use it okie 
+
+
+
+
 
 
 
