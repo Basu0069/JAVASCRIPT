@@ -28,4 +28,14 @@ let result2= addnum(10,2)
 
 
 
+HOW WILL THIS EXECUTE?
+STEP1) sbse phele code global execution se run hota h (this)
+STEP2) MEmory Phase ke andar sare variables ko rakha jata h  
+jaise 
+val1 --> UNdefined 
+val2 --> UNdefined 
+// dono ke andar phele jata h undefined 
+addnum --> defination  jati h iske andar 
+result1-->undefined 
+result2-->undefined 
 
