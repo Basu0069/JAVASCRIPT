@@ -30,6 +30,9 @@ let result2= addnum(10,2)
 
 HOW WILL THIS EXECUTE?
 STEP1) sbse phele code global execution se run hota h (this)
+
+
+
 STEP2) MEmory Phase ke andar sare variables ko rakha jata h  
 jaise 
 val1 --> UNdefined 
@@ -39,3 +42,10 @@ addnum --> defination  jati h iske andar
 result1-->undefined 
 result2-->undefined 
 
+
+Step 3 -> Execution Phase 
+ismei 
+val 1 ke andar 10 jayega 
+val 2 ke andar 5 jayega 
+aur line 3 se 6 tk koi function ni hoga 
+6:07
